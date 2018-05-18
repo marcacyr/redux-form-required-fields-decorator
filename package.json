@@ -1,6 +1,6 @@
 {
   "name": "redux-form-required-fields",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple decorator that can be used to easily add required fields to the context of a component tree that leverages Redux Form Fields.",
   "main": "dist/index.js",
   "repository": {
@@ -24,7 +24,7 @@
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1"
-},
+  },
   "keywords": [
     "redux-form",
     "redux",
