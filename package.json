@@ -1,0 +1,11 @@
+{
+  "name": "redux-form-required-fields",
+  "version": "1.0.0",
+  "description": "A simple decorator that can be used to easily add required fields to the context of a component tree that leverages Redux Form Fields.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marc Cyr",
+  "license": "MIT"
+}
