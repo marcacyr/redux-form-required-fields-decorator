@@ -3,6 +3,10 @@
   "version": "1.0.2",
   "description": "A simple decorator that can be used to easily add required fields to the context of a component tree that leverages Redux Form Fields.",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcacyr/redux-form-required-fields-decorator"
+  },
   "scripts": {
     "build": "babel index.js --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
