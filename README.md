@@ -57,3 +57,8 @@ The steps are pretty simple:
 This is a super simple decorator that is only here to make your life easier by adding an array of required field names to the context
 of a Redux Form at the highest level, so that every component down the tree will have access and can use that array to conditionally render
 UI specific to required fields.
+
+## License
+
+MIT © RedLock
+
