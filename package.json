@@ -10,10 +10,10 @@
   "author": "Marc Cyr",
   "license": "MIT",
   "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-stage-1": "^6.24.1",
-    "prop-types": "^15.6.1",
-    "react": ">=15.6.0"
+    "prop-types": "^15.6.1"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

@@ -26,46 +26,47 @@ var arrayOf = _propTypes2.default.arrayOf,
 
 var RequiredFields = function RequiredFields(requiredFields) {
     return function (ComposedComponent) {
-        return function (_Component) {
+        var _class, _temp2;
+
+        return _temp2 = _class = function (_Component) {
             _inherits(RequiredFields, _Component);
 
             function RequiredFields() {
+                var _ref;
+
+                var _temp, _this, _ret;
+
                 _classCallCheck(this, RequiredFields);
 
-                return _possibleConstructorReturn(this, (RequiredFields.__proto__ || Object.getPrototypeOf(RequiredFields)).apply(this, arguments));
+                for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+                    args[_key] = arguments[_key];
+                }
+
+                return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = RequiredFields.__proto__ || Object.getPrototypeOf(RequiredFields)).call.apply(_ref, [this].concat(args))), _this), _this.getChildContext = function () {
+                    return { requiredFields: requiredFields };
+                }, _temp), _possibleConstructorReturn(_this, _ret);
             }
 
+            //--------------------------------------------------
+            // Context Methods
+            //--------------------------------------------------
+
             _createClass(RequiredFields, [{
-                key: 'getChildContext',
+                key: 'render',
 
-
-                //--------------------------------------------------
-                // Context Methods
-                //--------------------------------------------------
-
-                value: function getChildContext() {
-                    return {
-                        requiredFields: requiredFields
-                    };
-                }
 
                 //--------------------------------------------------
                 // React LifeCycle Methods
                 //--------------------------------------------------
 
-            }, {
-                key: 'render',
                 value: function render() {
                     return React.createElement(ComposedComponent, this.props);
                 }
             }]);
 
             return RequiredFields;
-        }(_react.Component);
+        }(_react.Component), _class.childContextTypes = { requiredFields: arrayOf(string).isRequired }, _temp2;
     };
 };
-
-RequiredFields.displayName = 'RequiredFields';
-RequiredFields.childContextTypes = { requiredFields: arrayOf(string).isRequired };
 
 exports.default = RequiredFields;

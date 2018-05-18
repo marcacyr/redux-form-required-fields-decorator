@@ -10,11 +10,9 @@ const RequiredFields = requiredFields => ComposedComponent => (
         // Context Methods
         //--------------------------------------------------
 
-        getChildContext() {
-            return {
-                requiredFields
-            };
-        }
+        getChildContext = () => ({ requiredFields })
+
+        static childContextTypes = { requiredFields: arrayOf(string).isRequired }
 
         //--------------------------------------------------
         // React LifeCycle Methods
@@ -25,8 +23,5 @@ const RequiredFields = requiredFields => ComposedComponent => (
         }
     }
 );
-
-RequiredFields.displayName = 'RequiredFields';
-RequiredFields.childContextTypes = { requiredFields: arrayOf(string).isRequired };
 
 export default RequiredFields;
