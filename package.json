@@ -4,7 +4,7 @@
   "description": "A simple decorator that can be used to easily add required fields to the context of a component tree that leverages Redux Form Fields.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel decorators --out-dir dist",
+    "build": "babel index.js --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Marc Cyr",
