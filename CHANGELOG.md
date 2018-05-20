@@ -3,3 +3,7 @@ Initial code commits
 Add build process
 Add README and LICENSE
 General cleanup of README
+
+### v1.1.0
+Adds Jest and adds a test for whether requiredFields has been placed on context of a wrapped component
+Adds git ignore for node_modules to prevent the package size from being bloated
