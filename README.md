@@ -27,7 +27,7 @@ required in the UI component.
 import { Component } from 'react';
 import Field from 'path/to/fieldComponent';
 import { reduxForm } from 'redux-form'
-import RequireFields from 'path/to/decorators';
+import RequireFields from 'redux-form-required-fields';
 import someValidator from 'someValidatorYouWrote';
 
 const FOO = 'foo';
@@ -57,6 +57,17 @@ The steps are pretty simple:
 This is a super simple decorator that is only here to make your life easier by adding an array of required field names to the context
 of a Redux Form at the highest level, so that every component down the tree will have access and can use that array to conditionally render
 UI specific to required fields.
+
+### Additional Notes
+
+You will want to make sure you include the right Babel transform plugins to be able to handle decorators. Here is an example of a setup that works for this and other things as well:
+
+```
+{
+    "presets": ["react", "es2015", "stage-1"],
+    "plugins": ["transform-decorators-legacy"]
+}
+```
 
 ## License
 
