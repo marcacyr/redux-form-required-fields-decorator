@@ -10,3 +10,6 @@ Adds git ignore for node_modules to prevent the package size from being bloated
 
 ### v1.1.1
 Add travis ci build and add badge to README
+
+### v1.1.2
+update badges on the README
