@@ -1,4 +1,7 @@
 # ReduxForm Required Fields Decorator
+
+[![Build Status](https://travis-ci.org/marcacyr/redux-form-required-fields-decorator.svg?branch=master)](https://travis-ci.org/marcacyr/redux-form-required-fields-decorator)
+
 A simple decorator that can be used to easily add required fields to the context of a component tree that leverages Redux Form Fields.
 
 This package is discussed in this blog post: https://blog.hellojs.org/redux-form-is-an-awesome-way-to-handle-forms-in-a-redux-application-in-my-opinion-6b2713a815fa
