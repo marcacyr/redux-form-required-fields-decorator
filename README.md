@@ -1,6 +1,6 @@
 # ReduxForm Required Fields Decorator
 
-[![npm weekly downloads](https://img.shields.io/npm/dw/redux-form-required-fields.svg?style=for-the-badge)](https://www.npmjs.com/package/redux-form-required-fields) [![Build Status](https://img.shields.io/travis/marcacyr/redux-form-required-fields-decorator.svg?style=for-the-badge)](https://travis-ci.org/marcacyr/redux-form-required-fields-decorator)
+[![npm monthly downloads](https://img.shields.io/npm/dm/redux-form-required-fields.svg?style=for-the-badge)](https://www.npmjs.com/package/redux-form-required-fields) [![Build Status](https://img.shields.io/travis/marcacyr/redux-form-required-fields-decorator.svg?style=for-the-badge)](https://travis-ci.org/marcacyr/redux-form-required-fields-decorator)
 
 A simple decorator that can be used to easily add required fields to the context of a component tree that leverages Redux Form Fields.
 
